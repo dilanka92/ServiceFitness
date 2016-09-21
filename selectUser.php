@@ -2,7 +2,7 @@
 
      include 'config.php';
    
-   // Check whether username or password is set from android  
+   // Check whether email is set from android  
      if(isset($_POST['email']))
      {
       // Innitialize Variable
