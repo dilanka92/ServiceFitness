@@ -19,7 +19,7 @@
           $obj = $stmt->fetchObject();
           if($stmt->rowCount())
           {
-			 $result=$obj->Name;;	
+			 $result=$obj->Email;;	
           }  
           elseif(!$stmt->rowCount())
           {
